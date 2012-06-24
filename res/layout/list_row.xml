@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<TextView
+	android:id="@+id/text_AreaName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+<TextView
+	android:id="@+id/text_MapName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text_AreaName"
+    />
+
+<TextView
+	android:id="@+id/text_Route"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text_MapName"
+    />
+
+
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:id="@+id/txt_select_item" 
+          android:layout_width="fill_parent" 
+          android:layout_height="fill_parent" 
+          android:textSize="20sp" 
+          android:checkMark="?android:attr/listChoiceIndicatorSingle"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"  />
+
+<RadioButton
+    android:id="@+id/r_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@id/txt_select_item" />
+
+</RelativeLayout>

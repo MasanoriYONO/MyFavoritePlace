@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">MyFavoritePlace</string>
+    <string name="button1">見る</string>
+    <string name="button2">登録</string>
+    <string name="map_key">08WEY9Kq32y4PaoH2keeXzsU8auJ4ZzOA-EWgZw</string>
+	<string name="menu_upper_left">set geo point</string>
+    <string name="menu_upper_center">撮影位置を表示</string>
+    <string name="menu_upper_right">get route</string>
+    <string name="menu_lower_right">exit</string>
+    <string name="menu_lower_left">get user maps</string>
+    <string name="menu_lower_center">remove route</string>
+    <string name="map_key_release">08WEY9Kq32y6Qo-8HSme4AhK4OzKWiOf8GrhNmQ</string>
+<string name="list_menu_upper_left">truncate db</string>
+    <string name="list_menu_lower_right">exit</string>
+</resources>
